@@ -1,0 +1,72 @@
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid;
+    color: white;
+    font-family: 'nevis,Verdana,Arial,sans-serif,geneva', monospace;
+}
+table{
+    background-color: rgb(35, 35, 35, 0.9);
+    width: calc(100% - 260px);
+    margin-left: 130px;
+    margin-right: 130px;
+}
+td{
+    font-size: 20px;
+    height: 30px;
+    max-width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p{
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 100px;
+    margin-left: 30px;
+    float: left;
+}
+#voor{
+    float: right;
+    margin-right: 15px;
+}
+#nu{
+    margin-left: 58px;
+}
+#arrow{
+    width: max-content;
+}
+th{
+    font-size: 30px;
+    width: 300px;
+}
+#details{
+    font-size: 25px;
+}
+body {
+    background-image: url("wmm.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#positive{
+    color: lightgreen;
+}
+#negative{
+    color: lightcoral;
+}
+.newColor, #details{
+    background-color: rgba(72, 72, 72, 0.9);
+}
+#rank{
+    width: 25px;
+    margin-left: 10px;
+    text-align: right;
+}
+#name{
+    max-width: 95%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
